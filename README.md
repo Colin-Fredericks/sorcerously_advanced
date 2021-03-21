@@ -1,2 +1,3 @@
-# sorcerously_advanced
- Official repo for the tabletop roleplaying game
+# Sorcerously Advanced
+
+Official repo for the tabletop roleplaying game

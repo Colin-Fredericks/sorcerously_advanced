@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en"
+	unique-identifier="pub-identifier">
+	<metadata>
+		<dc:title id="pub-title">Sorcerously Advanced</dc:title>
+		<dc:language id="pub-language">en</dc:language>
+		<dc:date>2021-05-01</dc:date>
+		<dc:creator>Colin Fredericks</dc:creator>
+		<dc:contributor>Tithi Luadthong (illustrator)</dc:contributor>
+		<dc:contributor>Kate Tapley (proofreader)</dc:contributor>
+		<dc:contributor>DT 'Honey' Saint (sensitivity reader)</dc:contributor>
+		<dc:publisher>Colin Fredericks DBA Valent Games</dc:publisher>
+		<dc:rights>CC-BY-NC 4.0 International</dc:rights>
+	</metadata>
+	<manifest>
+		<item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="toc.xhtml"/>
+		<item media-type="text/css" id="epub-css" href="css/epub.css"/>
+		<item media-type="text/css" id="epub-tss-css" href="css/synth.css"/>
+    <item id="cover" href="covers/Sorc_Front_Cover.jpg" media-type="image/jpeg"/>
+		<item id="cover-page" href="cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cover-image" properties="cover-image" href="covers/Sorc_Front_Cover.jpg" media-type="image/jpeg"/>
+    <item id="chapter-titlepages" href="TitlePages.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-toc" href="toc.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-intro" href="Introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-chargen" href="CharGen.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-rules" href="Rules.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-magic" href="Magic.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-cultures" href="Cultures.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-worlds" href="Worlds.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-advice" href="Advice.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-endnotes" href="EndNotes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="backcover" href="backcover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="epub.embedded.font.1" href="fonts/GaramondNo8-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.2" href="fonts/GaramondNo8-Bold-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.3" href="fonts/GaramondNo8-Bold.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.4" href="fonts/GaramondNo8-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.5" href="fonts/breamcatcher.otf" media-type="application/vnd.ms-opentype"/>
+	</manifest>
+	<spine>
+		<itemref idref="cover" linear="no"/>
+    <itemref idref="cover-page" linear="no"/>
+    <itemref idref="chapter-titlepages" linear="yes"/>
+		<itemref idref="chapter-toc"/>
+		<itemref idref="chapter-intro"/>
+    <itemref idref="chapter-chargen"/>
+    <itemref idref="chapter-rules"/>
+    <itemref idref="chapter-magic"/>
+    <itemref idref="chapter-cultures"/>
+    <itemref idref="chapter-worlds"/>
+    <itemref idref="chapter-advice"/>
+    <itemref idref="chapter-endnotes"/>
+    <itemref idref="backcover" linear="no"/>
+  </spine>
+</package>
