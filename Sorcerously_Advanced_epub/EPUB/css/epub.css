@@ -189,6 +189,11 @@ section.singularity {
   padding: .5em;
 }
 
+section.fount_description {
+  page-break-after: always;
+  page-break-before: always;
+}
+
 .fount_description h3 {
   border-bottom: 1px solid #563C5C;
 }
@@ -223,11 +228,13 @@ section.singularity {
   border-bottom: 1px solid #563C5C;
 }
 
+.hangright{
+  padding-bottom: .5em;
+}
+
 .hangright img{
   float: right;
-  width: 12%;
-  max-width: 400px;
-  min-width: 75px;
+  width: 3em;
   margin: 0 0 0.5em 0.5em;
 }
 
