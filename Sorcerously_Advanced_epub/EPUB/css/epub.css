@@ -104,11 +104,11 @@ aside {
   background-color: #eedcfd;
 }
 
-aside h4:first-of-type{
+aside h4:first-of-type {
   margin-top: 0;
 }
 
-aside h4{
+aside h4 {
   margin-top: .5em;
 }
 
@@ -163,7 +163,6 @@ div.titlepage hr {
 }
 
 /* Locale-specific boxes and styling */
-
 section.singularity {
   page-break-after: always;
   page-break-before: always;
@@ -190,6 +189,11 @@ section.singularity {
   padding: .5em;
 }
 
+section.fount_description {
+  page-break-after: always;
+  page-break-before: always;
+}
+
 .fount_description h3 {
   border-bottom: 1px solid #563C5C;
 }
@@ -206,20 +210,33 @@ section.singularity {
   background-color: #eedcfd;
 }
 
-.profession_list h4{
+.profession_list h4 {
   width: 80vw;
   border-bottom: 1px solid #563C5C;
 }
 
-.sample_character h3{
+.sample_character h3 {
   width: 80vw;
   border-bottom: 1px solid #563C5C;
 }
 
-.sample_nature_scores div{
+.sample_nature_scores div {
   padding-left: 1em;
 }
 
+.nature h3 {
+  border-bottom: 1px solid #563C5C;
+}
+
+.hangright{
+  padding-bottom: .5em;
+}
+
+.hangright img{
+  float: right;
+  width: 3em;
+  margin: 0 0 0.5em 0.5em;
+}
 
 /* lists */
 dt {
