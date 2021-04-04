@@ -1,0 +1,17 @@
+Errata for the print version of Sorcerously Advanced
+Date: 05 April 2021
+
+Errata with major game effects:
+* None at this time.
+
+Errata with minor game effects:
+* Page 46: In the second bullet point, the sample character should have Power 6 / Import 6
+* Page 158: The Rage should refer to the "Hold To Your Traditions" CV.
+
+Errata that doesn't affect game content:
+* Page 14: There's a layout gaffe in the top left-hand corner.
+* Page 112: There is an extra period after Inheritable that shouldn't be there.
+
+All of this has been fixed in the PDF, epub, and mobi versions. Because updating the physical books is a much more tedious and lengthy process than updating the PDF, the printed versions of Sorcerously Advanced will always be behind the PDF copies. We apologize for the inconvenience.
+
+If you find additional errata, please report it at the game's official support site,
