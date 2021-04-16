@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en"
+	unique-identifier="pub-identifier">
+	<metadata>
+		<dc:title id="pub-title">Into the Impossible</dc:title>
+		<dc:language id="pub-language">en</dc:language>
+		<dc:date>2021-15-04</dc:date>
+		<dc:creator>Colin Fredericks</dc:creator>
+		<dc:contributor>Tithi Luadthong (illustrator)</dc:contributor>
+		<dc:publisher>Colin Fredericks DBA Valent Games</dc:publisher>
+		<dc:rights>CC-BY-NC 4.0 International</dc:rights>
+	</metadata>
+	<manifest>
+		<item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="toc.xhtml"/>
+		<item media-type="text/css" id="epub-css" href="css/epub.css"/>
+		<item media-type="text/css" id="epub-tss-css" href="css/synth.css"/>
+    <item id="cover" href="covers/ITI_Front_Cover.png" media-type="image/jpeg"/>
+		<item id="cover-page" href="cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cover-image" properties="cover-image" href="covers/ITI_Front_Cover.png" media-type="image/jpeg"/>
+    <item id="chapter-titlepages" href="TitlePages.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-toc" href="toc.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-intro" href="Introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-new_expressions" href="NewExpressions.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-infrastructure" href="Infrastructure.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-broken" href="Broken_Technologies.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-ref" href="References.xhtml" media-type="application/xhtml+xml"/>
+		<item id="epub.embedded.font.1" href="fonts/GaramondNo8-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.2" href="fonts/GaramondNo8-Bold-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.3" href="fonts/GaramondNo8-Bold.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.4" href="fonts/GaramondNo8-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+		<item id="epub.embedded.font.5" href="fonts/breamcatcher.otf" media-type="application/vnd.ms-opentype"/>
+	</manifest>
+	<spine>
+		<itemref idref="cover" linear="no"/>
+    <itemref idref="cover-page" linear="no"/>
+    <itemref idref="chapter-titlepages" linear="yes"/>
+		<itemref idref="chapter-toc"/>
+		<itemref idref="chapter-intro"/>
+    <itemref idref="chapter-new_expressions"/>
+    <itemref idref="chapter-infrastructure"/>
+    <itemref idref="chapter-broken"/>
+    <itemref idref="chapter-ref"/>
+  </spine>
+</package>

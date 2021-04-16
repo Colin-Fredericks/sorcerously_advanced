@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub,
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* end reset */
+@page {
+  margin: 5px !important;
+}
+
+/* p margin */
+p {
+  margin: .5em 0 .5em 0;
+}
+
+a.ulink, a.xref, a.email {
+  text-decoration: none;
+  color: #563C5C;
+}
+
+sup {
+  /* bug in webkit? */
+  font-size: x-small;
+  vertical-align: super;
+}
+
+sub {
+  font-size: smaller;
+  vertical-align: sub;
+}
+
+strong {
+  font-family: "Garamond8 Bold";
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+span.strikethrough {
+  text-decoration: line-through;
+}
+
+span.smallcaps {
+  font-variant: small-caps;
+}
+
+span.cursor {
+  background: #000;
+  color: #FFF;
+}
+
+/* headings */
+h1, h2, h3, h4 {
+  color: #563C5C;
+  font-family: "Breamcatcher", sans-serif;
+  font-weight: normal;
+  -epub-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+h1 {
+  font-size: 300%;
+  margin-top: 20px !important;
+}
+
+h2 {
+  font-size: 240%;
+  margin: 15px 0 8px 0 !important;
+}
+
+h3 {
+  font-size: 160%;
+  margin: 10px 0 8px 0 !important;
+}
+
+h4 {
+  font-size: 120%;
+  margin: 8px 0 !important;
+}
+
+section.part, section.chapter, section.subchapter {
+  page-break-after: always;
+}
+
+aside {
+  border: 1px solid #563C5C;
+  padding: 0 .5em .5em .5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  background-color: #eedcfd;
+}
+
+aside h4:first-of-type, aside h3:first-of-type {
+  margin-top: 0;
+}
+
+aside h4, aside h3 {
+  margin-top: .5em;
+}
+
+/* images  */
+img {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+figure {
+  margin: 10px 0 !important;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: transparent;
+  padding: 5px !important;
+  page-break-inside: avoid;
+}
+
+figure figcaption {
+  font-size: small;
+  font-weight: normal;
+  font-family: "Garamond8", serif;
+  color: #000;
+  padding: 5px !important;
+  page-break-before: avoid;
+  page-break-after: avoid;
+}
+
+/* title page */
+h1.book_title {
+  font-size: 400%;
+  text-align: center;
+}
+
+div.book div.titlepage h1.title {
+  font-size: 2.2em;
+  text-align: center;
+  margin-bottom: 10px !important;
+}
+
+div.book div.titlepage div.author h3 {
+  font-size: 1.6em;
+  font-family: "Breamcatcher", sans-serif;
+  text-align: center;
+  color: #563C5C;
+  margin: 10px 0 !important;
+}
+
+div.titlepage hr {
+  width: 50%;
+}
+
+/* Locale-specific boxes and styling */
+section.singularity {
+  page-break-after: always;
+  page-break-before: always;
+}
+
+.singularity p, .singularity h1 {
+  text-align: center;
+}
+
+.spell {
+  padding: .5em;
+  page-break-after: always;
+}
+
+.spell h3, .spell h4 {
+  border-bottom: 1px solid #563C5C;
+}
+
+.spell h4 {
+  width: 80vw;
+}
+
+.spell aside {
+  padding: .5em;
+}
+
+section.fount_description {
+  page-break-after: always;
+  page-break-before: always;
+}
+
+.fount_description h3 {
+  border-bottom: 1px solid #563C5C;
+}
+
+.path_description h3 {
+  width: 80vw;
+  border-bottom: 1px solid #563C5C;
+}
+
+.civbox {
+  padding: 0 0.5em 0.5em 0.5em;
+  margin: 0.5em;
+  border: 1px solid #563C5C;
+  background-color: #eedcfd;
+}
+
+.profession_list h4 {
+  width: 80vw;
+  border-bottom: 1px solid #563C5C;
+}
+
+.sample_character h3 {
+  width: 80vw;
+  border-bottom: 1px solid #563C5C;
+}
+
+.sample_nature_scores div {
+  padding-left: 1em;
+}
+
+.nature h3 {
+  border-bottom: 1px solid #563C5C;
+}
+
+.hangright{
+  padding-bottom: .5em;
+}
+
+.hangright img{
+  float: right;
+  width: 3em;
+  margin: 0 0 0.5em 0.5em;
+}
+
+/* lists */
+dt {
+  padding-top: 10px !important;
+  padding-bottom: 0 !important;
+}
+
+dd {
+  margin-left: 1.5em !important;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+  margin-left: 20px !important;
+  padding-left: 25px !important;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol {
+  list-style-type: lower-roman;
+}
+
+ul {
+  list-style-type: square;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+  margin-left: 5px !important;
+  padding-left: 20px !important;
+}
+
+ul ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+ul ul ul {
+  list-style-type: square;
+  margin-left: 20px !important;
+  padding-left: 30px !important;
+}
+
+/* tables */
+div.table, table {
+  margin: 10px auto !important;
+  max-width: 95%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div.table {
+  page-break-inside: avoid;
+}
+
+tr {
+  border-bottom: 1px solid #c3c3c3;
+}
+
+tr th {
+  border-bottom: #9d9d9d 2px solid !important;
+  border-top: #9d9d9d 2px solid !important;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f1f6fc;
+}
+
+th {
+  font-family: "Garamond8", serif;
+  color: #000;
+  font-weight: bold;
+}
+
+td, th {
+  padding: 0.3em;
+  text-align: left;
+  vertical-align: baseline;
+  font-size: 80%;
+}
+
+div.table p.title {
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Garamond8", serif;
+  margin: 20px 0 0 0 !important;
+  text-align: center;
+  padding: 0;
+}
+
+/* fonts (keep at bottom); using Garamond8 and Sans as a fallback */
+@font-face {
+  font-family: "Garamond8";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/GaramondNo8-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Garamond8 Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/GaramondNo8-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Garamond8 Italic";
+  font-style: italic;
+  font-weight: normal;
+  src: url(../fonts/GaramondNo8-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Garamond8 Bold Italic";
+  font-style: italic;
+  font-weight: bold;
+  src: url(../fonts/GaramondNo8-Bold-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Breamcatcher";
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/breamcatcher.otf);
+}
+
+/* keep this body statement last */
+body {
+  font-family: "Garamond8", serif;
+  padding: 1em;
+}
+
+/* remove numbering from nav ol */
+nav#toc ol {
+  list-style-type: none;
+}
