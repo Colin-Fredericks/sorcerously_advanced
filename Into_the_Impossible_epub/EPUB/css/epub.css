@@ -172,6 +172,10 @@ section.singularity {
   text-align: center;
 }
 
+.subtitle {
+  margin: -8px 0 8px 0 !important;
+}
+
 .spell {
   padding: .5em;
   page-break-after: always;
