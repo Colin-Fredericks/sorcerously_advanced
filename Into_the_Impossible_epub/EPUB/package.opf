@@ -24,7 +24,8 @@
     <item id="chapter-new_expressions" href="NewExpressions.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter-infrastructure" href="Infrastructure.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter-broken" href="Broken_Technologies.xhtml" media-type="application/xhtml+xml"/>
-    <item id="chapter-ref" href="References.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-living" href="Living_Magic.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter-ref" href="References.xhtml" media-type="application/xhtml+xml"/>
 		<item id="epub.embedded.font.1" href="fonts/GaramondNo8-Regular.ttf" media-type="application/vnd.ms-opentype"/>
 		<item id="epub.embedded.font.2" href="fonts/GaramondNo8-Bold-Italic.ttf" media-type="application/vnd.ms-opentype"/>
 		<item id="epub.embedded.font.3" href="fonts/GaramondNo8-Bold.ttf" media-type="application/vnd.ms-opentype"/>
@@ -40,6 +41,7 @@
     <itemref idref="chapter-new_expressions"/>
     <itemref idref="chapter-infrastructure"/>
     <itemref idref="chapter-broken"/>
+		<itemref idref="chapter-living"/>
     <itemref idref="chapter-ref"/>
   </spine>
 </package>
